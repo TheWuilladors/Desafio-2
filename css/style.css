@@ -209,6 +209,15 @@ a{
     margin: 0;
     padding: 10px 0;
 }
+
+.grey{
+    filter: grayscale(100%);
+    transition: all .3s ease;
+}
+
+.grey:hover{
+    filter: grayscale(0);
+}
 .author{
     display: flex;
     padding: 10px 0;
