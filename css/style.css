@@ -14,7 +14,7 @@ a{
 .column-one{
     width: 30vw;
     height: 100vh;
-    background: url(../images/1.jpg) no-repeat center;     
+    background: url(../images/1.jpg) no-repeat center;
     background-size: cover;
     position: fixed;
     transition: .3s
@@ -61,19 +61,20 @@ a{
 }
 
 .social-media-icon{
-    background: #1c3643;
     height: 50px;
     width: 50px;
     border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0);
     font-size: 24px;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all .3s ease;
 }
 .social-media-icon:hover, .newsletter-btn:hover{
-    background: #fed136;
-    color: #333333;
+    color: #98ca3f;
+    border: 1px solid #98ca3f;
 }
 /*-------------------------------------/*
  * Column two right
