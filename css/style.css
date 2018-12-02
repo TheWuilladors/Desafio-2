@@ -6,7 +6,7 @@ body{
     background: #EFEFEF;
 }
 a{
-    text-decoration: none;    
+    text-decoration: none;
 }
 /*-------------------------------------/*
  * Column one left
@@ -14,16 +14,16 @@ a{
 .column-one{
     width: 30vw;
     height: 100vh;
-    background: url(../images/sidenav.jpg) no-repeat center;     
-    background-size: cover; 
+    background: url(../images/1.jpg) no-repeat center;     
+    background-size: cover;
     position: fixed;
-    transition: .3s   
+    transition: .3s
 }
 .colum-one-container{
     width: 100%;
     height: 450px;
     position: absolute;
-    bottom: 0;   
+    bottom: 0;
     background:  linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5));
     text-align: center;
     color: #FFF;
@@ -35,24 +35,24 @@ a{
 .colum-one-container p{
     margin: 0 0 4rem;
 }
-.btn{     
-    background: #ff4842;    
+.btn{
+    background: #ff4842;
     border-bottom: 5px solid #d0272a;
     padding: 0.7rem;
     margin: 9px;
     color: #fff;
-    border-radius: 3px;       
+    border-radius: 3px;
 }
 .btn:hover{
-    background: #7dcd40;    
+    background: #7dcd40;
     border-bottom: 5px solid #619E32;
 }
 /*-------------------------------------/*
  * Social media
 /*-------------------------------------*/
-.social-media{    
+.social-media{
     height: 20%;
-    width: 100%;    
+    width: 100%;
     position: absolute;
     bottom: 0;
     display: flex;
@@ -91,18 +91,18 @@ a{
     margin: 0 auto;
 }
 .header{
-    position: fixed;    
+    position: fixed;
     top: 0;
     right: 0;
     width: 70vw;
-    height: calc(100vh - 450px);    
+    height: calc(100vh - 450px);
 }
 /*-------------------------------------/*
  * Newsletter
 /*-------------------------------------*/
 .newsletter{
-    padding: 20px;    
-    background: rgba(216,31,22,0.8) url(../images/frontend2.png) no-repeat right center;    
+    padding: 20px;
+    background: rgba(216,31,22,0.8) url(../images/frontend2.png) no-repeat right center;
     overflow: hidden;
     border-radius: 5px;
     margin: 10px auto ;
@@ -116,7 +116,7 @@ a{
 }
 .newsletter-input{
     padding: 10px;
-    font-size: 15px;    
+    font-size: 15px;
     border: none;
     border-radius: 5px;
 }
@@ -147,7 +147,7 @@ a{
 }
 
 .nav li{
-    padding: 0 25px 5px;    
+    padding: 0 25px 5px;
     cursor: pointer;
 }
 .nav li:hover{
@@ -187,7 +187,7 @@ a{
 }
 .post-title{
     margin: 0;
-    padding: 10px 0;   
+    padding: 10px 0;
 }
 .author{
     display: flex;
@@ -223,17 +223,17 @@ a{
     text-align: center;
 }
 .page ul li{
-    display: inline-block;    
+    display: inline-block;
     background: #EAEAEA;
-    border: 1px solid #CCCCCC;  
-    margin-top: 5px;  
+    border: 1px solid #CCCCCC;
+    margin-top: 5px;
 }
 .page a{
     color: #515151;
     text-decoration: none;
     display: block;
     height: inherit;/*heredado*/
-    padding: 10px 15px;  
+    padding: 10px 15px;
 }
 .select{
     background: none !important;
@@ -258,11 +258,11 @@ a{
     width: 100%;
     position: absolute;
     bottom: 0;
-    color: #fff;    
+    color: #fff;
     background:  linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5));
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 .cover-title h1{
     margin: 0;
@@ -272,8 +272,8 @@ a{
     position: relative;
     margin: 0 auto;
 }
-.letter-post{    
-    padding: 30px;    
+.letter-post{
+    padding: 30px;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
     background: #FFF;
     text-align: justify;
@@ -281,18 +281,18 @@ a{
 .letter-post p:first-child{
     letter-spacing: 0.01rem;
     font-size: 18px;
-    line-height: 1.75em;   
+    line-height: 1.75em;
 }
-.letter-post  p {    
+.letter-post  p {
     line-height: 1.6rem;
     margin-bottom: 1.6rem;
 }
 .letter-post  a{
-    color: #ff4842; 
-    font-weight: bold;   
+    color: #ff4842;
+    font-weight: bold;
 }
 .letter-post  a:hover{
-    color: #d0272a;    
+    color: #d0272a;
 }
 .letter-post h2{
     padding-bottom: 5px;
@@ -307,14 +307,14 @@ a{
 .post-author{
     width: 90%;
     border-top: 2px solid #f2f2f2;
-    padding: 50px 0;  
+    padding: 50px 0;
     margin: 0 auto;
     display: flex;
     align-items: center;
     text-align: center;
 }
 .post-author h4, .post-author p{
-    margin: 0; 
+    margin: 0;
 }
 .post-author p{
     font-size: 14px;
@@ -353,14 +353,14 @@ a{
     color: #FFF;
     text-align: center;
     width: 50%;
-    height: inherit;    
+    height: inherit;
 }
 .footer-platzi h1, .footer-platzi p{
     margin: 0;
 }
 .footer-social-media{
     width: 50%;
-    height: inherit;    
+    height: inherit;
 }
 .footer-social-media .social-media{
     width: 100%;
@@ -371,7 +371,7 @@ a{
     color: #1c3643;
 }
 /*-------------------------------------/*
- * Media query 
+ * Media query
 /*-------------------------------------*/
 @media screen and (max-width: 1310px){
     .nav{
@@ -387,7 +387,7 @@ a{
 }
 @media screen and (max-width: 1130px){
     .colum-one-container h1 {
-        font-size: 1.8rem;        
+        font-size: 1.8rem;
     }
     .super-post{
         flex-direction: column;
@@ -402,7 +402,7 @@ a{
     .column-one {
         width: 100%;
         height: 20vh;
-        background: #1c3643;        
+        background: #1c3643;
         position: fixed;
         z-index: 1;
         top: 0;
@@ -427,7 +427,7 @@ a{
     .description p{
         display: none;
     }
-    .btn{        
+    .btn{
         text-align: center;
     }
     .social-media{
@@ -460,9 +460,9 @@ a{
         display: none;
     }
     .nav{
-        margin: 0;  
-        background: #fff;       
-        width: 240px;           
+        margin: 0;
+        background: #fff;
+        width: 240px;
         height: 100%;
         position: fixed;
         top: 0;
@@ -479,7 +479,7 @@ a{
         align-items: center;
         padding: 10px;
         margin-bottom: 10px;
-    }    
+    }
     .nav img{
         height: 50px;
         width: 50px;
@@ -514,7 +514,7 @@ a{
     }
     .super-post, .page{
         flex-direction: column;
-    }    
+    }
     /*Newsletter*/
     #mc_embed_signup_scroll{
         display: flex;
@@ -522,14 +522,14 @@ a{
     }
     .newsletter-input{
         margin-bottom: 10px;
-    }    
+    }
      /*post*/
     .container-post{
         width: 95%;
     }
     .post-nav{
         display: initial;
-    }    
+    }
     .burguer-post{
         width: 0;
         padding: 0;
@@ -542,7 +542,7 @@ a{
         margin: 0;
     }
     .post-author-description{
-        padding: 0;        
+        padding: 0;
     }
     .post-author-description h4{
         text-align: center;
@@ -550,7 +550,7 @@ a{
     }
     .post-author p{
         margin: 0 auto;
-        padding-top:20px; 
+        padding-top:20px;
     }
     .footer-platzi .logo{
         padding: 0;
@@ -564,7 +564,7 @@ a{
 @media screen and (max-width: 500px) {
     .description h1{
         font-size: 1.2rem;
-    }    
+    }
     .newsletter-title{
         font-size: 1rem;
     }
@@ -582,7 +582,7 @@ a{
     .footer{
         height: auto;
     }
-    .footer .container-post {        
+    .footer .container-post {
         flex-direction: column;
         align-items: center;
     }
@@ -596,5 +596,5 @@ a{
     .footer-platzi p{
         font-size: 0.8rem;
     }
-     
+
 }
