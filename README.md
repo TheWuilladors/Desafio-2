@@ -1,15 +1,13 @@
-# Blog-Universidad-Platzi
+Blog Universidad platzi
 
-Desarrollo del segundo reto del curso de git y github usando los Issues Management de GitHub
+**Descripción**
+_Desarrollo del segundo reto de parte de Mike Nieva en el curso profesional de Git y GitHub_
 
-  1. Se gestiono el proyecto en cuatro Milestones, cada uno con los issues necesarios para poder cumplir con el objetivo correspondiente.
+**Requisitos**
+_Si quieres utilizar este proyecto como plantilla/ejemplo solo basta con tener un navegador para que puedas ver los cambios que realizas en el documento. Un editor de codigo y tener Git instalado en tu PC_
 
-  2. Se trabajo colobaración con una cuenta ficticia para simular el uso de pull requests
-
-  4. Se puso en practica los conocimientos adquiridos en el curso de Desarrollo web online y Responsive Design
-  
-  3. Uso de gh-pages para la publicación del mismo
-  
-  
-Todos los conocimientos necesarios para la realización de este proyecto los puedes adquirir en 
-[Platzi](https://platzi.com/) con su [Curso profesional de Git y GitHub](https://platzi.com/cursos/git-github/) , de la mano de [Mike Nieva](https://twitter.com/mikenieva) 
+**Desafio**
+_Desafio N°2: Crear un blog universitario
+-Crear un blog universitario
+-Implementar en Issues Management de GitHub
+-15 commit (no mas ni menos) _
